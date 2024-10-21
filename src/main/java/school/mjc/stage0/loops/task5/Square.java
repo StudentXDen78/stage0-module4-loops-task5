@@ -15,6 +15,7 @@ public class Square {
         }
 
         side(sideLength);
+        System.out.println();
     }
 
     public void side(int sideLength) {
