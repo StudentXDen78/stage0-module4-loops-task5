@@ -2,6 +2,7 @@ package school.mjc.stage0.loops.task5;
 
 public class Cross {
     public void printCross(int sideLength) {
+        if (sideLength == 0) return;
         int middle = sideLength / 2;
         for (int i = 0; i < sideLength; i++) {
             if (i == middle) {
